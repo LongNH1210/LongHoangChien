@@ -1,0 +1,70 @@
+tfoot tr td { 
+    font-weight: bold; 
+    text-align: right;    
+}
+table, th, td {
+  padding: 10px;
+  margin: 10px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+}
+thead {
+  background-color: red;
+}
+
+thead tr th {
+  border: 1px solid black;
+}
+
+tbody tr td {
+  border: 1px solid black;
+}
+
+tbody {
+  background: pink;
+}
+
+tfoot {
+  background-color: yellow;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #3e8e41;
+}
+
+tfoot td a {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+tfoot td a:hover{
+  background-color: #3e8e41;
+  color: white;
+}
+
+footer { 
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 20px; 
+}
+
+footer p { 
+  margin: 0; 
+}

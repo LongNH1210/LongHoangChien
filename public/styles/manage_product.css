@@ -1,0 +1,45 @@
+header { 
+    background-image: url('/images/logo3.png'); 
+    height: 350px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    }
+
+    .logo { 
+        font-size: 50px; 
+        text-align: center; 
+        color: white; 
+        text-decoration: none; 
+    }
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  thead {
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+  }
+
+  thead th {
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  tbody td {
+    border: 1px solid black;
+  }
+  footer { 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    }
+
+    footer p { 
+        margin: 0; 
+    }
